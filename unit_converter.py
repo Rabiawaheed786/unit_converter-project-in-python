@@ -32,3 +32,5 @@ if st.button("Convert"):
     result = convert_units(value, unit_from, unit_to) #  call the conversion function
     st.write(f"Converted Value: {result}") #display the  result
 
+# Footer
+st.markdown("<div class='footer'>© 2025 Unit Converter | Developed by Rabia Waheed</div>",
